@@ -23,7 +23,7 @@
 :root {
   --primary_color: #FFFFFF;
   --sub_primary_color: #EF0F0F;
-  --primary_highlight: #EF0F0F;
+  --primary_highlight: #de4747;
   --grey-c1: grey;
   --white: #ffffff;
   --ff-primary: "Roboto", sans-serif;
@@ -76,7 +76,7 @@ a.btn-all {
     background: var(--white);
     color: var(--sub_primary_color);
     font-size: 1.2rem;
-    border-radius: 0;
+    border-radius: 10px;
     font-family: var(--ff-primary);
     width: 15rem;
     outline: none;
@@ -115,6 +115,7 @@ a.btn-all:hover {
     opacity: 0;
     transition: all 0.3s;
     border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 10px;
     transform: scale(1.2,1.2);
   }
   a.btn-all:hover::after {
@@ -311,6 +312,7 @@ iframe {
   padding: 25px 3px;
   font-size: 14px;
   font-weight: 600;
+  text-transform: capitalize;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
   transition: 0.3s;
@@ -450,7 +452,7 @@ iframe {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: var(--primary_highlight);
   overflow-y: auto;
   transition: 0.3s;
 }

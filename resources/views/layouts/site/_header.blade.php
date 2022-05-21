@@ -12,7 +12,7 @@
                           <li><a class="nav-link scrollto" href="#about">{{__('site.about')}}</a></li>
                           <li><a class="nav-link scrollto" href="#services">{{__('site.services')}}</a></li>
                           <li><a class="nav-link scrollto" href="#cta">{{__('site.Work With Us')}}</a></li>
-                          <li><a class="nav-link scrollto" href="#features">{{__('site.Our App')}}</a></li>
+                          <li><a class="nav-link scrollto" href="#app">{{__('site.Our App')}}</a></li>
                           <li><a class="nav-link scrollto" href="#contact">{{__('site.contact')}}</a></li>
                           <li><a class="nav-link scrollto" href="#">{{__('site.community')}}</a></li>
 

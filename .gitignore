@@ -5,8 +5,6 @@
 /storage/*.key
 /storage/*.json
 /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
-/
-
 /vendor
 /info
 .env
