@@ -75,12 +75,12 @@
                 @foreach ($services as $service)
                 <div class="col-lg-4 pb-5 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
                     <div class="icon-box text-center">
-                        <a href="{{ route('front.service', $service->dir) }}">
+                        <a href="#">
                             <img src="{{ $service->image_path }}" alt="">
                         </a>
-                        <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
-                        <h3><a href="{{ route('front.service', $service->dir) }}">{{ $service->name }}</a></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis facere voluptates hic, illum.</p>
+
+                        <h3>{{ $service->name }}</h3>
+                        <p>{{ $service->desc }}</p>
                     </div>
 
                 </div>

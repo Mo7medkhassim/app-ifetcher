@@ -12,9 +12,9 @@ class HomeController extends Controller
 {
     public function index()
     {
-        // return "controller";
 
         $services = Service::all();
+
 
         return view('site.home', compact('services'));
     } // end of index
