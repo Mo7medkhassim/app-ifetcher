@@ -80,7 +80,7 @@
                         </a>
 
                         <h3>{{ $service->name }}</h3>
-                        <p>{{ $service->desc }}</p>
+                        <p>{!! $service->desc !!}</p>
                     </div>
 
                 </div>
