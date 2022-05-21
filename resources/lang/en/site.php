@@ -124,5 +124,17 @@ return [
     platforms including Huawei , IOS and Android, Payment gateway
     services and SaaS offerings',
 
+    'comming soon' => 'comming soon',
+    'Dubai' => 'Dubai',
+    'Nauf Tower Al Maktoum Bridge' => 'Nauf Tower Al Maktoum Bridge',
+    'United Arab Emirates' => 'United Arab Emirates',
+    'Special Offers For' => 'Special Offers For',
+    'Association Members' => 'Association Members',
+    'In line with the Dubai' => 'In line with the Dubai government’s vision of Partaking in the
+    Social Development of the Global Community, iFetcher
+    pushes the boundaries of social interaction in the hopes of
+    connecting people worldwide & reparing to introduce Global
+    Community Service that aims to create a dynamic lifestyle.',
+
 
 ];

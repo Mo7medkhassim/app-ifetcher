@@ -22,8 +22,8 @@
 /* end of font */
 :root {
   --primary_color: #FFFFFF;
-  --sub_primary_color: #a70b0b;
-  --primary_highlight: #a70b0b;
+  --sub_primary_color: #EF0F0F;
+  --primary_highlight: #EF0F0F;
   --grey-c1: grey;
   --white: #ffffff;
   --ff-primary: "Roboto", sans-serif;
@@ -143,8 +143,8 @@ a.btn-all:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid var(--primary_color);
-  border-top-color: #fff;
-  border-bottom-color: #fff;
+  border-top-color: var(--primary_highlight);
+  border-bottom-color: var(--primary_highlight);
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -196,7 +196,7 @@ iframe {
 }
 .back-to-top:hover {
   background: var(--sub_primary_color);
-  color: #fff;
+  color: var(--sub_primary_color);
 }
 .back-to-top.active {
   visibility: visible;
@@ -508,6 +508,7 @@ iframe {
 
 .hero-img img {
     width: 100%;
+
     object-fit: cover;
     display: block;
 
@@ -667,6 +668,11 @@ section {
   overflow: hidden;
 }
 
+.section-img img {
+    width: 90%;
+    max-height: 490px;
+}
+
 .section-bg {
   background-color: #8fffd6;
 }
@@ -812,6 +818,77 @@ section {
 
 
 /*--------------------------------------------------------------
+# app
+--------------------------------------------------------------*/
+.app .app-content {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.app .app-content div{
+    width: 100%;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-content-img {
+    display: flex;
+    flex-direction: row;
+    /* margin: auto; */
+    justify-content: space-around;
+}
+
+.app-content-img img{
+    margin: auto;
+    width: 30%;
+
+}
+
+.app-content .app-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.app-top img {
+    max-width: 35%;
+    padding: 0 10px;
+}
+
+.app-content .app-top h4{
+    color: var(--primary_highlight);
+    padding: 0 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.app-content-text p {
+    text-align: center;
+    color: var(--primary_highlight);
+    font-weight: 300;
+    padding: 15px 30px;
+}
+
+.app-content-text p.app-coming {
+    font-weight: 500;
+    color: var(--primary_highlight);
+    text-transform: capitalize;
+}
+
+@media (max-width: 769px) {
+
+    p {
+      padding: 15px;
+    }
+  }
+/*--------------------------------------------------------------
+# app
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
@@ -947,7 +1024,7 @@ font-size: 1.1rem;
   color: var(--primary_color);
   margin-left: 60px;
 }
-.features , .clients{
+.features , .Partner{
    background: #F8F9FE;
 
 
@@ -970,7 +1047,7 @@ font-size: 1.1rem;
     padding: 30px 20px;
     background: var(--primary_highlight);
     overflow: hidden;
-    border-radius: 2px;
+    border-radius: 12px;
 }
 .partner-hit p{
    color: var(--primary_color);
@@ -989,16 +1066,16 @@ font-size: 1.1rem;
 
 
 /*--------------------------------------------------------------
-# Clients
+# Partner
 --------------------------------------------------------------*/
-.clients {
+.Partner {
   padding-top: 30px;
 }
-/* .clients .clients-wrap { */
+/* .Partner .Partner-wrap { */
   /* border-top: 1px solid #e7e7e7; */
   /* border-left: 1px solid #e7e7e7; */
 /* } */
-.clients .client-logo {
+.Partner .client-logo {
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -1009,11 +1086,12 @@ font-size: 1.1rem;
   /* background: #fff; */
   height: 5rem;
 }
-.clients .client-logo:hover img {
+.Partner .client-logo:hover img {
   transform: scale(1.1);
 }
-.clients img {
+.Partner img {
   transition: all 0.4s ease-in-out;
+  width: 65px;
 }
 
 /*--------------------------------------------------------------
@@ -1581,14 +1659,14 @@ font-size: 1.1rem;
 # Footer
 --------------------------------------------------------------*/
 #footer {
-    background: #a70b0b;
+    background: #EF0F0F;
     padding: 0 0 30px 0;
     color: #fff;
     font-size: 14px;
 }
 
 #footer .footer-top {
-    background: #a70b0b;
+    background: #EF0F0F;
     padding: 60px 0 30px 0;
 }
 

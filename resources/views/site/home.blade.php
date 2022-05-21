@@ -33,14 +33,14 @@
 
 <main id="main">
 
-    <!-- ======= Services Section ======= -->
+    <!-- ======= About Section ======= -->
     <section id="about" class="about mt-2">
-        <div class="container" >
+        <div class="container">
 
 
 
 
-        <div class="section-title text-center" data-aos="zoom-in">
+            <div class="section-title text-center" data-aos="zoom-in">
                 <h2>{{__('site.Why us?')}}</h2>
                 <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
             </div>
@@ -60,7 +60,7 @@
 
         </div>
     </section>
-    <!-- ======= Services Section ======= -->
+    <!-- ======= About Section ======= -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -68,9 +68,7 @@
 
             <div class="section-title text-center" data-aos="zoom-in">
                 <h2>{{__('site.What Can We Do For You?')}}</h2>
-
             </div>
-
 
             <div class="row">
                 @if ( ! empty ($services) && $services->count() > 0)
@@ -101,7 +99,7 @@
         <div class="container">
 
             <div class="row ">
-                <div class="col-md-6 hero-img">
+                <div class="col-md-6 section-img">
                     <img data-aos="fade-left" src="{{asset('site_assets/img/criteria-img.png') }}" alt="">
                 </div>
                 <div class="col-md-6 d-flex pt-4 justify-content-center  align-items-center " data-aos="fade-right">
@@ -124,8 +122,8 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-md-5 hero-img">
-                    <img data-aos="fade-left" src="{{asset('site_assets/img/criteria-img.png') }}" alt="">
+                <div class="col-md-5 section-img">
+                    <img data-aos="fade-left" src="{{asset('site_assets/img/app/partner-img.png') }}" alt="">
                 </div>
                 <div class="col-md-7 d-flex justify-content-center align-items-center">
                     <div class="text-center " data-aos="fade-left">
@@ -141,109 +139,46 @@
 
         </div>
     </section><!-- End Features Section -->
-    <!-- ======= Cleint Section ======= -->
-    <section id="clients" class="clients">
+
+    <!-- ======= Partner Section ======= -->
+    <section id="Partner" class="Partner" >
         <div class="container">
 
-            <div class="row brands no-gutters clients-wrap clearfix wow fadeInUp">
+            <div class="row brands no-gutters Partner-wrap clearfix wow fadeInUp">
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968332.png" class="img-fluid" alt="">
+                    <img src="{{ asset('site_assets/img/portfolio/php.png') }}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968332.png" class="img-fluid" alt="">
+                    <img src="{{ asset('site_assets/img/portfolio/js.png') }}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968332.png" class="img-fluid" alt="">
+                    <img src="{{ asset('site_assets/img/portfolio/python.png') }}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968332.png" class="img-fluid" alt="">
+                    <img src="{{ asset('site_assets/img/portfolio/c-sharp.png') }}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968332.png" class="img-fluid" alt="">
+                    <img src="{{ asset('site_assets/img/portfolio/html-5.png') }}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968332.png" class="img-fluid" alt="">
+                    <img src="{{ asset('site_assets/img/portfolio/css-3.png') }}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968332.png" class="img-fluid" alt="">
+                    <img src="{{ asset('site_assets/img/portfolio/react.png') }}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968332.png" class="img-fluid" alt="">
+                    <img src="{{ asset('site_assets/img/portfolio/nodejs.png') }}" class="img-fluid" alt="">
                 </div>
-
-                <!-- <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <div class="client-logo">
-                        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968350.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <div class="client-logo">
-                        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968332.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <div class="client-logo">
-                        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968350.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <div class="client-logo">
-                        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968332.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <div class="client-logo">
-                        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968350.png" class="img-fluid" alt="">
-                    </div>
-                </div> -->
-                <!-- <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <div class="client-logo">
-                        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968332.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <div class="client-logo">
-                        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968350.png" class="img-fluid" alt="">
-                    </div>
-                </div> -->
-
-                <!-- <div class="col-4">
-                    <div class="client-logo">
-                        <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-
-                <div class="col-4">
-                    <div class="client-logo">
-                        <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-
-                <div class="col-4">
-                    <div class="client-logo">
-                        <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-
-                <div class="col-4">
-                    <div class="client-logo">
-                        <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
-                    </div>
-                </div> -->
 
             </div>
 
         </div>
     </section>
-    <!-- ======= Client Section ======= -->
+    <!-- ======= Partner Section ======= -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact py-5">
+    <!-- <section id="contact" class="contact py-5">
         <div class="container">
 
             <div class="section-title text-center">
@@ -311,8 +246,41 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
     <!-- ======= Contact Section ======= -->
+
+    <!-- ======= Our App Section ======= -->
+    <section id="app" class="app">
+        <div class="container fluid">
+            <div class="row">
+
+                <div class="col-md-4 section-img">
+                    <img data-aos="fade-right" src="{{ asset('site_assets/img/app/app-img.png') }}" alt="">
+                </div>
+
+                <div class="col-md-8 app-content">
+                    <div data-aos="fade-left" class="app-top">
+                        <h4>
+                            {{__('site.Special Offers For')}} <br>
+                            {{__('site.Association Members')}}
+                        </h4>
+                        <img src="{{asset('site_assets/img/app/inventor.png') }}" alt="">
+                    </div>
+                    <div data-aos="fade-right" class="app-content-text">
+                        <p>{{__('site.In line with the Dubai') }}</p>
+                        <p class="app-coming">{{__('site.comming soon') }}</p>
+                    </div>
+                    <div data-aos="fade-left" class="app-content-img">
+                        <img src="{{ asset('site_assets/img/app/app-store.png') }}" alt="">
+                        <img src="{{ asset('site_assets/img/app/huawei.png') }}" alt="">
+                        <img src="{{ asset('site_assets/img/app/google-play.png') }}" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======= Our App Section ======= -->
 
 
 </main><!-- End #main -->
@@ -325,51 +293,7 @@
 
 <?php if (app()->getLocale() == "ar") : ?>
 
-    <script type="text/javascript">
-        $('.dine-brand').slick({
-            centerMode: true,
-            arrows: false,
-            dots: false,
-            infinite: true,
-            autoplay: true,
-            centerPadding: '60px',
-            autoplaySpeed: 3000,
-            slidesToShow: 3,
-            variableWidth: false,
-            rtl: true,
-            responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        centerPadding: '40px',
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: false
-                    }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        // centerMode: true,
-                        // arrows: false,
-                        slidesToScroll: 1,
-                        // centerMode: true,
-                        centerPadding: '40px',
-                        slidesToShow: 2
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '40px',
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        });
-    </script>
+
 
     <script type="text/javascript">
         $('.brands').slick({
@@ -381,10 +305,13 @@
             autoplaySpeed: 2000,
             slidesToShow: 5,
             slidesToScroll: 1,
+            centerPadding: '40px',
+
             rtl: true,
             responsive: [{
                     breakpoint: 1024,
                     settings: {
+                        centerPadding: '40px',
                         slidesToShow: 4,
                         slidesToScroll: 1,
                         infinite: true,
@@ -394,6 +321,7 @@
                 {
                     breakpoint: 600,
                     settings: {
+                        centerPadding: '40px',
                         slidesToShow: 3,
                         slidesToScroll: 1
                     }
@@ -401,6 +329,7 @@
                 {
                     breakpoint: 480,
                     settings: {
+                        centerPadding: '40px',
                         slidesToShow: 2,
                         slidesToScroll: 1
                     }
@@ -412,47 +341,6 @@
 
 <?php else : ?>
 
-    <script type="text/javascript">
-        $('.dine-brand').slick({
-            centerMode: true,
-            dots: false,
-            infinite: true,
-            arrows: false,
-            autoplay: true,
-            centerPadding: '60px',
-            autoplaySpeed: 3000,
-            slidesToShow: 3,
-            variableWidth: false,
-            responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        // dots: true
-                        centerPadding: '40px',
-                    }
-                }, {
-                    breakpoint: 768,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '40px',
-                        slidesToShow: 2
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '40px',
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        });
-    </script>
 
     <script type="text/javascript">
         $('.brands').slick({
@@ -464,9 +352,11 @@
             autoplaySpeed: 2000,
             slidesToShow: 5,
             slidesToScroll: 1,
+            centerPadding: '40px',
             responsive: [{
                     breakpoint: 1024,
                     settings: {
+                        centerPadding: '40px',
                         slidesToShow: 4,
                         slidesToScroll: 1,
                         infinite: true,
@@ -476,6 +366,7 @@
                 {
                     breakpoint: 600,
                     settings: {
+                        centerPadding: '40px',
                         slidesToShow: 3,
                         slidesToScroll: 1
                     }
@@ -483,6 +374,7 @@
                 {
                     breakpoint: 480,
                     settings: {
+                        centerPadding: '40px',
                         slidesToShow: 2,
                         slidesToScroll: 1
                     }
