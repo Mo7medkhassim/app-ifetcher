@@ -84,7 +84,7 @@ a.btn-all {
 }
 
 a.btn-all:hover {
-    color: var(--primary_highlight);
+    color: var(--sub_primary_color);
 }
 
 
@@ -861,7 +861,7 @@ section {
 }
 
 .app-content .app-top h4{
-    color: var(--primary_highlight);
+    color: var(--sub_primary_color);
     padding: 0 10px;
     font-size: 1.2rem;
     text-align: center;
@@ -870,14 +870,14 @@ section {
 
 .app-content-text p {
     text-align: center;
-    color: var(--primary_highlight);
+    color: var(--sub_primary_color);
     font-weight: 300;
     padding: 15px 30px;
 }
 
 .app-content-text p.app-coming {
     font-weight: 500;
-    color: var(--primary_highlight);
+    color: var(--sub_primary_color);
     text-transform: capitalize;
 }
 
@@ -897,14 +897,12 @@ section {
   padding: 15px 10px 10px 10px;
   transition: all ease-in-out 0.3s;
   background: var(--white);
-  width: 90%;
-  /* box-shadow: rgb(0 0 0 / 25%) 0px 3px 11px 0px !important; */
+  width: 95%;
   box-shadow: 0 0 4px rgb(0 0 0 / 30%);
   border-radius: .3rem;
   border-bottom: 5px solid #fff;
   text-align: center;
   position: relative;
-  height: 19rem;
   margin: auto;
 }
 .services .icon-box img {
@@ -949,7 +947,7 @@ font-size: 1.1rem;
    box-shadow: rgb(0 0 0 / 25%) 0px 3px 11px 0px !important;
 }
 .services .icon-box:hover h3 a {
-  color: var(--primary_highlight);
+  color: var(--sub_primary_color);
 }
 
 .inner-page .service_img {
@@ -1047,9 +1045,10 @@ font-size: 1.1rem;
 }
 .partner-hit{
     padding: 30px 20px;
-    background: var(--primary_highlight);
+    background: var(--sub_primary_color);
     overflow: hidden;
     border-radius: 12px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 3px 11px 0px !important;
 }
 .partner-hit p{
    color: var(--primary_color);
@@ -1519,16 +1518,16 @@ font-size: 1.1rem;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: var(--primary_highlight);
+  color: var(--sub_primary_color);
 }
 .contact .info p  {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: var(--primary_highlight);
+  color: var(--sub_primary_color);
 }
 .contact h2 , .contact p {
-    color: var(--primary_highlight);
+    color: var(--sub_primary_color);
 }
 .contact .info .email, .contact .info .phone {
   margin-top: 40px;
