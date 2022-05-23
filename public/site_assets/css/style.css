@@ -63,6 +63,22 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+.btn-color {
+    color:  var(--primary_color);
+    background: var(--sub_primary_color);
+    border: none;
+    outline: none;
+    transition: all .4s ease-in-out;
+    border-radius: 5px;
+
+}
+
+.btn-color:hover {
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    background:  var(--primary_color);
+    color: var(--sub_primary_color);
+}
+
 a.btn-all {
     cursor: pointer;
     display: inline-block;
@@ -188,16 +204,20 @@ iframe {
   width: 40px;
   height: 40px;
   border-radius: 50px;
+  border: 1px solid var(--sub_primary_color);
   transition: all 0.4s;
 }
 .back-to-top i {
   font-size: 28px;
-  color: var(--primary_highlight);
+  color: var(--sub_primary_color);
   line-height: 0;
 }
 .back-to-top:hover {
   background: var(--sub_primary_color);
-  color: var(--sub_primary_color);
+  color: var(--primary_color);
+}
+.back-to-top i:hover {
+    color: var(--primary_color);
 }
 .back-to-top.active {
   visibility: visible;
@@ -1494,15 +1514,15 @@ font-size: 1.1rem;
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact {
-    background:  url('../img/contact-bg.png');
+/* .contact { */
+    /* background:  url('../img/contact-bg.png');
      position: relative;
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
-   min-height: 400px;
+   min-height: 400px; */
 
- }
+ /* } */
 .contact .info {
   width: 100%;
   background: #fff;

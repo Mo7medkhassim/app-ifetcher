@@ -178,7 +178,7 @@
     <!-- ======= Partner Section ======= -->
 
     <!-- ======= Contact Section ======= -->
-    <!-- <section id="contact" class="contact py-5">
+    <section id="contact" class="contact py-5">
         <div class="container">
 
             <div class="section-title text-center">
@@ -197,9 +197,9 @@
 
 
 
-                <div class="col-md-6 mx-auto mt-3 mt-lg-0">
+                <div class="col-md-6 mx-auto mt-3 mt-lg-0" data-aos="zoom-in">
 
-                    <form action="{{ route('front.store') }}" method="post" role="form">
+                    <form action="{{ route('front.store') }}" method="post" role="form"  >
                         @if (Session::has('Successfully'))
                         <div class="alert alert-success">
                             <ul>
@@ -209,7 +209,7 @@
                         @endif
                         @csrf
                         <div class="row">
-                            <div class="col-md-6 form-group" data-aos="fade-right">
+                            <div class="col-md-6 form-group" >
                                 <input type="text" name="name" class="form-control" id="name" placeholder="{{__('site.Your Name')}}" required>
                                 @if ($errors->has('name'))
                                 <span class="invalid-feedback text-danger mt-2" style="display: block;" role="alert">
@@ -218,7 +218,7 @@
                                 @endif
                             </div>
 
-                            <div class="col-md-6 form-group mt-3 mt-md-0" data-aos="zoom-in">
+                            <div class="col-md-6 form-group mt-3 mt-md-0" >
                                 <input type="text" class="form-control" name="phone" id="phone" placeholder="{{__('site.Phone')}}">
                                 @if ($errors->has('phone'))
                                 <span class="invalid-feedback text-danger mt-2" style="display: block;" role="alert">
@@ -227,7 +227,7 @@
                                 @endif
                             </div>
                         </div>
-                        <div class="form-group mt-3" data-aos="fade-right">
+                        <div class="form-group mt-3" >
                             <input type="email" class="form-control" name="email" id="email" placeholder="{{__('site.Your Email')}}" required>
                             @if ($errors->has('email'))
                             <span class="invalid-feedback text-danger mt-2" style="display: block;" role="alert">
@@ -235,18 +235,18 @@
                             </span>
                             @endif
                         </div>
-                        <div class="form-group mt-3" data-aos="zoom-in">
+                        <div class="form-group mt-3" >
                             <textarea class="form-control" name="message" rows="5" placeholder="{{__('site.Message')}}"></textarea>
                         </div>
 
-                        <div class="text-center" data-aos="zoom-in"><button class="btn btn-dark mt-3 px-3 " type="submit">{{__('site.Send Message')}}</button></div>
+                        <div class="text-center" ><button class="btn btn-color mt-3 px-3 " type="submit">{{__('site.Send Message')}}</button></div>
                     </form>
                 </div>
 
             </div>
 
         </div>
-    </section> -->
+    </section>
     <!-- ======= Contact Section ======= -->
 
     <!-- ======= Our App Section ======= -->
