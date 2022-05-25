@@ -25,7 +25,7 @@
   --sub_primary_color: #EF0F0F;
   --primary_highlight: #de4747;
   --grey-c1: #3E4D64;
-  --white: #ffffff;
+  --white: #FFFFFF;
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
   --ff-cairo: 'Cairo', sans-serif;
@@ -50,7 +50,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--ff-primary);
+  font-family: var(--ff-primary);f
 }
 
 .btn-check:focus+.btn, .btn:focus {
@@ -89,9 +89,9 @@ a.btn-all {
 
 a.btn-all {
     padding: 14px;
-    border: .3px solid #fff;
-    background: var(--white);
-    color: var(--primary_color);
+    border: .3px solid var(--sub_primary_color);
+    background: transparent;
+    color: var(--sub_primary_color);
     font-size: 1.2rem;
     border-radius: 10px;
     font-family: var(--ff-primary);
@@ -131,7 +131,7 @@ a.btn-all:hover {
     z-index: 1;
     opacity: 0;
     transition: all 0.3s;
-    border: 1px solid rgba(255,255,255,0.5);
+    border: 1px solid var(--primary_highlight);
     border-radius: 10px;
     transform: scale(1.2,1.2);
   }
@@ -482,20 +482,26 @@ iframe {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: var(--primary_highlight);
+  background-color: var(--white);
   overflow-y: auto;
   transition: 0.3s;
+  border-radius: .3rem;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: var(--white);
+  color: var(--sub_primary_color);
+  transition: all .5s ease-in;
 }
 .navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
   visibility: hidden;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: var(--white);
+  color: var(--sub_primary_color);
+  /* border-bottom: .5px solid var(--sub_primary_color); */
+  text-decoration: underline;
+  display: inline-block;
+
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -531,7 +537,7 @@ iframe {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-    background: var(--sub_primary_color);
+    background: #F8F9FE;
     /* background: #F8F9FE; */
 
 }
@@ -572,11 +578,11 @@ iframe {
   font-size: 2rem;
   font-weight: 700;
   line-height: 56px;
-  color: var(--primary_color);
+  color: var(--sub_primary_color);
   text-shadow:  0 0 2rem 0 rgba(182, 196, 213, 0.15) !important;
 }
 #hero h2 {
-  color: var(--white);
+  color: var(--primary_color);
   margin-bottom: 1.5rem;
   text-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
   font-size: 24px;
@@ -879,6 +885,8 @@ section {
     /* margin: auto; */
     margin-top: 1rem;
     width: 50%;
+    background: var(--white);
+    border-radius: .5rem;
 
 }
 

@@ -38,10 +38,10 @@
 
 
                 <div class="col-lg-4 col-md-4 footer-newsletter">
-                    <h4>{{__('site.Our Newsletter')}}</h4>
+                    <h4>{{__('site.Our App')}}</h4>
                     <div  class="app-content-img">
                         <img src="{{ asset('site_assets/img/app/app-store.png') }}" alt="">
-                        <img src="{{ asset('site_assets/img/app/huawei.png') }} " alt="">
+                        <!-- <img src="{{ asset('site_assets/img/app/huawei.png') }} " alt=""> -->
                         <img src="{{ asset('site_assets/img/app/google-play.png') }}" alt="">
                     </div>
 
