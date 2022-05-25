@@ -138,6 +138,9 @@ return [
 
     'let' => 'let us talk',
     'Leave us a message' => 'Leave us a message',
+    'Projects & 71-75 Shelton Street,' => 'Projects & 71-75 Shelton Street,',
+    'Covent Garden' => 'Covent Garden',
+    'London UK - iFetcher LTD' => 'London UK - iFetcher LTD',
 
 
 ];

@@ -11,6 +11,10 @@
                             {{__('site.Nauf Tower Al Maktoum Bridge')}} <br>
                             {{__('site.Dubai')}}, {{__('site.United Arab Emirates')}}<br><br>
 
+
+                            {{__('site.Projects & 71-75 Shelton Street,')}} <br>
+                            {{__('site.Covent Garden')}}, {{__('site.London UK - iFetcher LTD')}}<br><br>
+
                             <strong>{{__('site.Email')}}:</strong> <a style="color: white;" href="#">info@ifetcher.com</a><br>
                         </p>
                         <strong>{{__('site.Phone')}}:</strong><a style="color: white;" class="phone" href="#"> 05xxxxxxx </a><br>
