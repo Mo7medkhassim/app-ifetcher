@@ -32,6 +32,17 @@
                     src: url('/site_assets/vendor/tajawal/Tajawal-Bold.ttf');
                 }
 
+                @font-face {
+                    font-family: Tajawal;
+                    src: url('/site_assets/vendor/tajawal/Tajawal-Regular.ttf');
+                }
+
+                body {
+                    font-family: Tajawal !important;
+
+                }
+
+
                 h1,
                 h2,
                 h3,
@@ -137,34 +148,9 @@
         <div id="preloader"></div>
         <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-        <script type="text/javascript">
-            // whatsap number icon
-            (function() {
-                var options = {
-                    whatsapp: "+971555507157", // WhatsApp number
-                    call_to_action: "Message us", // Call to action
-                    position: "left", // Position may be 'right' or 'left'
-
-                };
-                var proto = document.location.protocol,
-                    host = "whatshelp.io",
-                    url = proto + "//static." + host;
-                var s = document.createElement('script');
-                s.type = 'text/javascript';
-                s.async = true;
-                s.src = url + '/widget-send-button/js/init.js';
-                s.onload = function() {
-                    WhWidgetSendButton.init(host, proto, options);
-                };
-                var x = document.getElementsByTagName('script')[0];
-                x.parentNode.insertBefore(s, x);
-
-
-            })();
-        </script>
 
         <!-- slick -->
-        <script src="{{asset('site_assets/js/jquery-migrate-1.2.1.min.js')}}"></script>
+        <!-- <script src="{{asset('site_assets/js/jquery-migrate-1.2.1.min.js')}}"></script> -->
         <script src="{{asset('site_assets/js/jquery-1.11.0.min.js')}}"></script>
         <script src="{{asset('site_assets/js/slick.min.js')}}"></script>
 

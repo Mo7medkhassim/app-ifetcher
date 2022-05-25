@@ -136,5 +136,8 @@ return [
     connecting people worldwide & reparing to introduce Global
     Community Service that aims to create a dynamic lifestyle.',
 
+    'let' => 'let us talk',
+    'Leave us a message' => 'Leave us a message',
+
 
 ];

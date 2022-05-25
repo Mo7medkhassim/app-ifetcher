@@ -14,7 +14,7 @@
         </ul>
     </div>
     <div class="row">
-        <div class="col-6 ">
+        <div class="col-sm-6 ">
             <div class="widget-small primary coloured-icon"><i class="icon fa fa-users fa-3x"></i>
                 <div class="info">
                     <h4>Users</h4>
@@ -22,7 +22,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-6 ">
+        <div class="col-sm-6 ">
             <div class="widget-small info coloured-icon"><i class="icon fa fa-thumbs-o-up fa-3x"></i>
                 <div class="info">
                     <h4>Categories</h4>
@@ -30,7 +30,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-6 ">
+        <div class="col-sm-6 ">
             <div class="widget-small warning coloured-icon"><i class="icon fa fa-files-o fa-3x"></i>
                 <div class="info">
                     <h4>Servies</h4>
@@ -38,7 +38,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-6 ">
+        <div class="col-sm-6 ">
             <div class="widget-small danger coloured-icon"><i class="icon fa fa-star fa-3x"></i>
                 <div class="info">
                     <h4>Projects</h4>
