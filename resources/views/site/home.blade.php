@@ -2,8 +2,6 @@
 
 @section('content')
 
-
-
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container-fluid">
@@ -39,31 +37,30 @@
     <!-- ======= About Section ======= -->
     <section id="about" class="about mt-2">
         <div class="container">
-
-
-
-
             <div class="section-title text-center" data-aos="zoom-in">
                 <h2>{{__('site.Why us?')}}</h2>
                 <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
             </div>
             <div class="about-content scribble-embed-wrapper mt-5" data-aos="zoom-in">
                 <!-- <h2>Welcome to Rabdan Mall</h2> -->
-                <p class="px-2">{{__('site.about text')}}
+                <p class="px-3">{{__('site.about text')}}
                 </p>
                 <div class="about-vedio">
-                    <video width="320" height="260" controls>
+
+                    <video width="320" height="240" controls>
                         <source src="{{ asset('site_assets/vedio/pexels-c-technical-5981916.mp4') }}" type="video/mp4">
-                        <source src="movie.ogg" type="video/ogg">
-                        Your browser does not support the video tag.
+                        <source src="{{ asset('site_assets/vedio/pexels-c-technical-5981916.mp4') }}" type="video/ogg">
+                        <source src="{{ asset('site_assets/vedio/pexels-c-technical-5981916.mp4') }}" type="video/webm">
+                        <object data="movie.mp4" width="320" height="240">
+                            <embed src="{{ asset('site_assets/vedio/pexels-c-technical-5981916.mp4') }}" width="320" height="240">
+                        </object>
                     </video>
                 </div>
                 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/-XamO1VnVbo?rel=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope" allowfullscreen=""></iframe> -->
             </div>
 
         </div>
-    </section>
-    <!-- ======= About Section ======= -->
+    </section> <!-- ======= About Section ======= -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -73,7 +70,7 @@
                 <h2>{{__('site.What Can We Do For You?')}}</h2>
             </div>
 
-            <div class="services-items" >
+            <div class="services-items">
 
                 @if ( ! empty ($services) && $services->count() > 0)
                 @foreach ($services as $service)
@@ -82,22 +79,20 @@
                         <a href="#">
                             <img src="{{ $service->image_path }}" alt="">
                         </a>
-
                         <h3>{{ $service->name }}</h3>
                         <p>{!! $service->desc !!}</p>
                     </div>
-
                 </div>
                 @endforeach
                 @else
-                <div class="alert alert-info">Please Add Services !</div>
+                <div class="alert alert-info">Please Add Services!</div>
                 @endif
 
             </div>
 
 
         </div>
-    </section><!-- End Services Section -->
+    </section> <!-- End Services Section -->
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
@@ -109,18 +104,18 @@
                 </div>
                 <div class="col-md-6 d-flex pt-4 justify-content-center  align-items-center " data-aos="fade-right">
                     <div class="text-center">
-                        <h3 data-aos="fade-left">{{__('site.Get Free Quote')}}</h3>
-                        <p data-aos="fade-left"> {{__('site.Every Industry')}}</p>
+                        <h3 data-aos="fade-left">{{__('site.Every Industry') }}</h3>
+                        <!-- <p data-aos="fade-left"> {{__('site.Every Industry')}}</p> -->
                         <!-- <a class="cta-btn align-middle" href="#">{{__('site.About')}}</a> -->
                     </div>
                 </div>
                 <div class="col-12 text-center pt-4">
-                    <h3 data-aos="fade-left">{{__('site.Stop delaying')}}</h3>
+                    <h5 data-aos="fade-left">{{__('site.Stop delaying')}}</h5>
                 </div>
             </div>
 
         </div>
-    </section><!-- End Cta Section -->
+    </section> <!-- End Cta Section -->
 
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
@@ -143,7 +138,7 @@
             </div>
 
         </div>
-    </section><!-- End Features Section -->
+    </section> <!-- End Features Section -->
 
     <!-- ======= Partner Section ======= -->
     <section id="Partner" class="Partner">
@@ -179,8 +174,7 @@
             </div>
 
         </div>
-    </section>
-    <!-- ======= Partner Section ======= -->
+    </section> <!-- ======= Partner Section ======= -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact py-5">
@@ -239,8 +233,7 @@
             </div>
 
         </div>
-    </section>
-    <!-- ======= Contact Section ======= -->
+    </section> <!-- ======= Contact Section ======= -->
 
     <!-- ======= Our App Section ======= -->
     <section id="app" class="app">
@@ -266,35 +259,25 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- ======= Our App Section ======= -->
-
+    </section> <!-- ======= Our App Section ======= -->
 
 </main><!-- End #main -->
 @endsection()
 
 @push('scripts')
 
-
-
-
 <?php if (app()->getLocale() == "ar") : ?>
-
-
-
     <script type="text/javascript">
         $('.brands').slick({
             dots: false,
             infinite: true,
             arrows: false,
             speed: 300,
-
             autoplay: true,
             autoplaySpeed: 2000,
             slidesToShow: 5,
             slidesToScroll: 1,
             centerPadding: '40px',
-
             rtl: true,
             responsive: [{
                     breakpoint: 1024,
@@ -328,31 +311,25 @@
 
         $('.services-items').slick({
             dots: true,
-            prevArrow: $('.prev'),
-            nextArrow: $('.next'),
+            rtl: true,
             infinite: true,
-            arrows: true,
             speed: 300,
             autoplay: true,
             autoplaySpeed: 2000,
             slidesToShow: 3,
             slidesToScroll: 1,
-            rtl: true,
-            centerPadding: '40px',
             responsive: [{
                     breakpoint: 1024,
                     settings: {
-                        centerPadding: '40px',
                         slidesToShow: 2,
                         slidesToScroll: 1,
-                        infinite: true,
+                        infinite: false,
                         dots: true
                     }
                 },
                 {
-                    breakpoint: 600,
+                    breakpoint: 768,
                     settings: {
-                        centerPadding: '40px',
                         slidesToShow: 1,
                         slidesToScroll: 1
                     }
@@ -360,63 +337,55 @@
                 {
                     breakpoint: 480,
                     settings: {
-                        centerPadding: '40px',
                         slidesToShow: 1,
                         slidesToScroll: 1
                     }
                 }
-
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
             ]
         });
     </script>
-
-
-
-
-
 <?php else : ?>
-
-
     <script type="text/javascript">
         $('.services-items').slick({
-            // dots: false,
+            dots: true,
             infinite: true,
-            // arrows: false,
             speed: 300,
             autoplay: true,
             autoplaySpeed: 2000,
             slidesToShow: 3,
             slidesToScroll: 1,
-            centerPadding: '40px',
             responsive: [{
                     breakpoint: 1024,
                     settings: {
-                        centerPadding: '40px',
-                        slidesToShow: 3,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
-                        infinite: true,
+                        infinite: false,
                         dots: true
                     }
                 },
                 {
-                    breakpoint: 600,
+                    breakpoint: 768,
                     settings: {
-                        centerPadding: '40px',
-                        slidesToShow: 2,
+                        slidesToShow: 1,
                         slidesToScroll: 1
                     }
                 },
                 {
                     breakpoint: 480,
                     settings: {
-                        centerPadding: '40px',
                         slidesToShow: 1,
                         slidesToScroll: 1
                     }
                 }
-
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
             ]
         });
+
         $('.brands').slick({
             dots: false,
             infinite: true,
@@ -462,9 +431,7 @@
 
 <script>
     $(document).ready(function() {
-
         $("#alert").delay(20000).fadeOut(500);
-
     });
 </script>
 

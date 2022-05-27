@@ -7,8 +7,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Roboto:wght@100;300;400&display=swap');
 
-
-
 @font-face {
     font-family: Tajawal_bold;
     src: url('/site_assets/vendor/tajawal/Tajawal-Bold.ttf');
@@ -30,7 +28,6 @@
   --ff-secondary: "Open Sans", sans-serif;
   --ff-cairo: 'Cairo', sans-serif;
   --ff-Tajawal: 'Tajawal_bold', sans-serif;
-  /* --ff-Tajawal: 'Tajawal', sans-serif; */
   --darkShadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
 
@@ -51,8 +48,6 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--ff-primary);
-  /* color: var(--sub_primary_color); */
-
 }
 
 .btn-check:focus+.btn, .btn:focus {
@@ -62,7 +57,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn:hover {
     color: var(--white);
-
 }
 
 .btn-color {
@@ -73,13 +67,11 @@ h1, h2, h3, h4, h5, h6 {
     outline: none;
     transition: all .4s ease-in-out;
     border-radius: 5px;
-
 }
 
 .btn-color:hover {
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    box-shadow: 0px 0px 30px rgba(27, 27, 28, 0.25);
     background:  var(--primary_color);
-    color: var(--sub_primary_color);
 }
 
 a.btn-all {
@@ -95,7 +87,7 @@ a.btn-all {
     background: transparent;
     color: var(--sub_primary_color);
     font-size: 1.2rem;
-    border-radius: 10px;
+    border-radius: 5px;
     font-family: var(--ff-primary);
     width: 15rem;
     outline: none;
@@ -116,14 +108,14 @@ a.btn-all:hover {
     width: 100%;
     height: 100%;
     z-index: 1;
-    /* background-color: rgba(255,255,255,0.1); */
     transition: all 0.3s;
   }
+
   a.btn-all:hover::before {
     opacity: 0 ;
     transform: scale(0.5,0.5);
-
   }
+
   a.btn-all::after {
     content: '';
     position: absolute;
@@ -135,9 +127,10 @@ a.btn-all:hover {
     opacity: 0;
     transition: all 0.3s;
     border: 1px solid var(--primary_highlight);
-    border-radius: 10px;
+    border-radius: 5px;
     transform: scale(1.2,1.2);
   }
+
   a.btn-all:hover::after {
     opacity: 1;
     transform: scale(1,1);
@@ -151,7 +144,6 @@ a.btn-all:hover {
       width: 90%;
       max-width: 650px;
   }
-
 
 /*--------------------------------------------------------------
 # Preloader
@@ -173,8 +165,8 @@ a.btn-all:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid var(--primary_color);
-  border-top-color: var(--primary_highlight);
-  border-bottom-color: var(--primary_highlight);
+  border-top-color: var(--white);
+  border-bottom-color: var(--white);
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -244,7 +236,6 @@ iframe {
   transition: all 0.5s;
   z-index: 997;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  /* background: rgba(40, 40, 40, 0.9); */
   background: var(--sub_primary_color);
 }
 
@@ -501,10 +492,8 @@ iframe {
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: var(--sub_primary_color);
-  /* border-bottom: .5px solid var(--sub_primary_color); */
   text-decoration: underline;
   display: inline-block;
-
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -541,18 +530,12 @@ iframe {
 --------------------------------------------------------------*/
 #hero {
     background: #FFFFFF;
-    /* background: #F8F9FE; */
-
 }
-
-
 
 .hero-img img {
     width: 100%;
-
     object-fit: cover;
     display: block;
-
 }
 
 #hero{
@@ -561,17 +544,8 @@ iframe {
   background-size: cover;
   position: relative;
 }
-/* #hero:before { */
-  /* content: "";
-  background: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0; */
-/* } */
+
 #hero .container {
-  /* padding-top: 72px; */
   position: relative;
   text-align: center;
 }
@@ -676,12 +650,6 @@ iframe {
     margin-bottom: 30px;
   }
 
-  /* #hero .btn-all {
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translate(-50,-50);
-  } */
 }
 
 @-webkit-keyframes pulsate-btn {
@@ -757,30 +725,13 @@ section {
 #about {
     background: var(--sub_primary_color);
 }
-/* #about .about-text {
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    max-width: 70%;
-} */
 
 #about h2{
-    /* font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 22px;
-    letter-spacing: 1px;
-
-    display: inline-block;
-    padding-bottom: 20;
-    border-radius: 50px;
-    transition: 0.3s;
-    line-height: 1; */
     color: var(--white);
 }
 
 #about .section-title h2::after {
     background: var(--white);
-
 }
 
 .scribble-embed-wrapper {
@@ -869,12 +820,10 @@ section {
   }
 }
 @media (max-width: 769px) {
-
   iframe {
     height: 250px;
 }
 }
-
 
 /*--------------------------------------------------------------
 # app
@@ -899,7 +848,6 @@ section {
 }
 
 .app-content-img img{
-    /* margin: auto; */
     margin-top: 1rem;
     width: 50%;
     background: var(--white);
@@ -978,8 +926,6 @@ font-size: 1.1rem;
   margin-top: 15px;
   font-weight: 600;
   color: var(--sub_primary_color);
-
-
 }
 .services .icon-box h3 a {
   color: var(--sub_primary_color);
@@ -1003,7 +949,6 @@ font-size: 1.1rem;
     height: 85%;
 }
 
-
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
@@ -1016,6 +961,11 @@ font-size: 1.1rem;
   color: var(--white);
   font-size: 28px;
   font-weight: 700;
+}
+.cta h5 {
+  color: var(--white);
+  font-size: 22px;
+  font-weight: 600;
 }
 .cta p {
   color: var(--white);
@@ -1035,7 +985,6 @@ font-size: 1.1rem;
   margin: 10px;
   background: var(--primary_color);
   color: #fff;
-  /* border-radius: 50px; */
 }
 .v-text-center {
     margin: auto;
@@ -1072,8 +1021,6 @@ font-size: 1.1rem;
 }
 .features , .Partner{
    background: #F8F9FE;
-
-
 }
 
 .features .features_text {
@@ -1081,7 +1028,6 @@ font-size: 1.1rem;
     top: 0px;
     left: 0px;
     width: 100%;
-
 }
 
 .features h3 {
@@ -1113,10 +1059,7 @@ font-size: 1.1rem;
 .Partner {
   padding-top: 50px 20px;
 }
-/* .Partner .Partner-wrap { */
-  /* border-top: 1px solid #e7e7e7; */
-  /* border-left: 1px solid #e7e7e7; */
-/* } */
+
 .Partner .client-logo {
   padding: 10px;
   display: flex;
@@ -1246,7 +1189,6 @@ font-size: 1.1rem;
   color: var(--primary_color);
   border-color: var(--primary_color);
   outline: none;
-
 }
 
 .portfolio .btn-all:hover {
@@ -1255,7 +1197,6 @@ font-size: 1.1rem;
 }
 .portfolio .portfolio-item .portfolio-info .preview-link, .portfolio .portfolio-item .portfolio-info .details-link {
   font-size: 3.5rem;
-
   color: #0f0f0f;
   transition: ease-in-out 0.3s;
 }
@@ -1272,7 +1213,6 @@ font-size: 1.1rem;
 }
 .portfolio .portfolio-item:hover i {
   opacity: 1;
-
 }
 
 /*--------------------------------------------------------------
@@ -1532,15 +1472,7 @@ font-size: 1.1rem;
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-/* .contact { */
-    /* background:  url('../img/contact-bg.png');
-     position: relative;
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   min-height: 400px; */
 
- /* } */
 .contact .info {
   width: 100%;
   background: #fff;
@@ -1674,7 +1606,6 @@ font-size: 1.1rem;
 .breadcrumbs h2 {
   font-size: 26px;
   font-weight: 500;
-
 }
 .breadcrumbs ol {
   display: flex;
