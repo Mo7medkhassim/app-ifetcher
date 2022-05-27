@@ -25,7 +25,7 @@
                     <h1 class="animate__animated animate__fadeIndown">{{__('site.We Create the story Behind your Success')}}</h1>
 
                     <h2 class="animate__animated animate__fadeIndown">{{__('site.App Experiences')}}</h2>
-                    <a href="#cta" data-aos="zoom-in" class="btn btn-all  my-2">{{__('site.Get Free Quote')}}</a>
+                    <a href="#contact" data-aos="zoom-in" class="btn btn-all  my-2">{{__('site.contact')}}</a>
                 </div>
 
             </div>
@@ -73,7 +73,8 @@
                 <h2>{{__('site.What Can We Do For You?')}}</h2>
             </div>
 
-            <div class="services-items">
+            <div class="services-items" >
+
                 @if ( ! empty ($services) && $services->count() > 0)
                 @foreach ($services as $service)
                 <div class="services-item pb-5 " data-aos="fade-up">
@@ -93,7 +94,7 @@
                 @endif
 
             </div>
-            <!-- <button type="button" class="slick-prev">Previous</button> -->
+
 
         </div>
     </section><!-- End Services Section -->
@@ -287,6 +288,7 @@
             infinite: true,
             arrows: false,
             speed: 300,
+
             autoplay: true,
             autoplaySpeed: 2000,
             slidesToShow: 5,
@@ -325,7 +327,9 @@
         });
 
         $('.services-items').slick({
-            // dots: false,
+            dots: true,
+            prevArrow: $('.prev'),
+            nextArrow: $('.next'),
             infinite: true,
             arrows: true,
             speed: 300,

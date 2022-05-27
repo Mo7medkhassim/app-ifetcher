@@ -130,7 +130,7 @@ return [
 
     'comming soon' => 'قريبا !',
     'Dubai' => 'دبي ',
-    'Nauf Tower Al Maktoum Bridge' => 'برج نوف جسر المكتوم',
+    'Nauf Tower Al Maktoum Bridge' => 'اي فيتشر المشاريع, برج نوف جسر المكتوم',
     'United Arab Emirates' => 'الامارات العربية المتحدة ',
     'Special Offers For' => 'خصم خاص لمنتسبى',
     'Association Members' => 'جمعية الإمارات للمخترعين',
@@ -141,9 +141,9 @@ return [
     ، تدفع أى فيتشر حدود التفاعل الاجتماعي على أمل ربط الناس في جميع
     أنحاء العالم وتقديم خدمة عالمية تهدف إلى خلق نمط حياة ديناميكي.',
     'let' => 'راسلنا',
-    'Projects & 71-75 Shelton Street,' => 'المشاريع و 71-75 شارع شيلتون ،',
+    'Projects & 71-75 Shelton Street,' => 'اي فيتشر ال تي دي , 71-75 شارع شيلتون ،',
     'Covent Garden' => 'كوفنت غاردن',
-    'London UK - iFetcher LTD' => 'لندن المملكة المتحدة - iFetcher LTD',
+    'London UK - iFetcher LTD' => 'لندن المملكة المتحدة',
 
 
 ];

@@ -8,23 +8,17 @@
                     <div class="footer-info">
                         <h3>{{__('site.iFetcher')}}</h3>
                         <p>
-                            {{__('site.Nauf Tower Al Maktoum Bridge')}} <br>
-                            {{__('site.Dubai')}}, {{__('site.United Arab Emirates')}}<br><br>
+                            {{__('site.Nauf Tower Al Maktoum Bridge')}},  {{__('site.Dubai')}} <br>
+                           {{__('site.United Arab Emirates')}} <a href="tel:545544"><i class="bx bx-phone-call"></i> 545544</a> <br><br>
 
 
-                            {{__('site.Projects & 71-75 Shelton Street,')}} <br>
-                            {{__('site.Covent Garden')}}, {{__('site.London UK - iFetcher LTD')}}<br><br>
+                            {{__('site.Projects & 71-75 Shelton Street,')}} {{__('site.Covent Garden')}}<br>
+                         {{__('site.London UK - iFetcher LTD')}} <a href="tel:600 545544"><i class="bx bx-phone-call"></i> 600 545544</a>  <br><br>
 
                             <strong>{{__('site.Email')}}:</strong> <a style="color: white;" href="#">info@ifetcher.com</a><br>
                         </p>
-                        <strong>{{__('site.Phone')}}:</strong><a style="color: white;" class="phone" href="#"> 05xxxxxxx </a><br>
-                        <div class="social-links mt-3">
-                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                        </div>
+                        <strong>{{__('site.Phone')}}:</strong><a style="color: white;" class="phone" href="#"> +971 60 054 5544 </a><br>
+
                     </div>
                 </div>
 
@@ -48,6 +42,15 @@
                         <!-- <img src="{{ asset('site_assets/img/app/huawei.png') }} " alt=""> -->
                         <img src="{{ asset('site_assets/img/app/google-play.png') }}" alt="">
                     </div>
+
+                    <div class="social-links mt-5">
+                        <a href="https://www.facebook.com/ifetcher" class="facebook"><i class="bx bxl-facebook"></i></a>
+                        <a href="https://wa.link/d59f4i" class="facebook"><i class="bx bxl-whatsapp"></i></a>
+                        <a href="https://twitter.com/ifetcher" class="twitter"><i class="bx bxl-twitter"></i></a>
+                            <a href="https://www.instagram.com/ifetcher/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UC-DGZT4xZ9Npec2YzOhqgmg?view_as=subscriber" class="google-plus"><i class="bx bxl-youtube"></i></a>
+                            <a href="https://www.linkedin.com/company/ifetcher/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        </div>
 
 
 

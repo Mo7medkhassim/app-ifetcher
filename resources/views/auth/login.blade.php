@@ -76,7 +76,7 @@
 </section>
 <section class="login-content">
     <div class="logo">
-        <h1>{{ __('Login') }}</h1>
+        <h1><img src="{{ asset('site_assets/img/logoo.png') }}" alt="" class="img-fluid"></h1>
     </div>
     <div class="login-box">
         <form class="login-form" method="POST" action="{{ route('login') }}">

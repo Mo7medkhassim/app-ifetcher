@@ -126,7 +126,7 @@ return [
 
     'comming soon' => 'comming soon',
     'Dubai' => 'Dubai',
-    'Nauf Tower Al Maktoum Bridge' => 'Nauf Tower Al Maktoum Bridge',
+    'Nauf Tower Al Maktoum Bridge' => 'iFetcher Projects ,Nauf Tower Al Maktoum Bridge',
     'United Arab Emirates' => 'United Arab Emirates',
     'Special Offers For' => 'Special Offers For',
     'Association Members' => 'Association Members',
@@ -138,9 +138,9 @@ return [
 
     'let' => 'let us talk',
     'Leave us a message' => 'Leave us a message',
-    'Projects & 71-75 Shelton Street,' => 'Projects & 71-75 Shelton Street,',
+    'Projects & 71-75 Shelton Street,' => 'iFetcher LTD, 71-75 Shelton Street,',
     'Covent Garden' => 'Covent Garden',
-    'London UK - iFetcher LTD' => 'London UK - iFetcher LTD',
+    'London UK - iFetcher LTD' => 'London UK',
 
 
 ];

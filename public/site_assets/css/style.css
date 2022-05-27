@@ -21,7 +21,7 @@
 
 /* end of font */
 :root {
-  --primary_color: #3E4D64;
+  --primary_color: #EF0F0F;
   --sub_primary_color: #EF0F0F;
   --primary_highlight: #de4747;
   --grey-c1: #3E4D64;
@@ -50,7 +50,9 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--ff-primary);f
+  font-family: var(--ff-primary);
+  /* color: var(--sub_primary_color); */
+
 }
 
 .btn-check:focus+.btn, .btn:focus {
@@ -98,6 +100,7 @@ a.btn-all {
     width: 15rem;
     outline: none;
     transition: all 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 a.btn-all:hover {
@@ -265,7 +268,7 @@ iframe {
 }
 
 #header .language:hover  {
-  color: var(--primary_color);
+  color: #FFFFFF;
 }
 #header .logo img {
   max-height: 50px;
@@ -537,7 +540,7 @@ iframe {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-    background: #F8F9FE;
+    background: #FFFFFF;
     /* background: #F8F9FE; */
 
 }
@@ -579,13 +582,15 @@ iframe {
   font-weight: 700;
   line-height: 56px;
   color: var(--sub_primary_color);
-  text-shadow:  0 0 2rem 0 rgba(182, 196, 213, 0.15) !important;
+  letter-spacing: 0.2rem;
+  text-shadow: 0px 2px 4px var(--grey-c1);
 }
 #hero h2 {
   color: var(--primary_color);
   margin-bottom: 1.5rem;
-  text-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+  text-shadow: rgba(40, 40, 40, 0.08);
   font-size: 24px;
+  font: 600;
 }
 #hero .play-btn {
   width: 94px;
@@ -727,6 +732,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   font-family: var(--ff-primary);
+  color: var(--primary_color);
 }
 .section-title h2::after {
   content: "";
@@ -748,24 +754,33 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
-#about .about-text {
+#about {
+    background: var(--sub_primary_color);
+}
+/* #about .about-text {
     position: absolute;
     top: 50%;
     left: 20%;
     max-width: 70%;
-}
+} */
 
-#about .about-text h2{
-    font-family: "Raleway", sans-serif;
+#about h2{
+    /* font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 22px;
     letter-spacing: 1px;
+
     display: inline-block;
-    padding: 12px 32px;
+    padding-bottom: 20;
     border-radius: 50px;
     transition: 0.3s;
-    line-height: 1;
-    color: var(--primary_color);
+    line-height: 1; */
+    color: var(--white);
+}
+
+#about .section-title h2::after {
+    background: var(--white);
+
 }
 
 .scribble-embed-wrapper {
@@ -800,6 +815,7 @@ section {
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
+  color: var(--white);
 }
 .about .content ul {
   list-style: none;
@@ -819,6 +835,9 @@ section {
   font-size: 20px;
   color: var(--primary_color);
   line-height: 1;
+}
+.about .about-content p {
+    color: var(--white);
 }
 .about .content p:last-child {
   margin-bottom: 0;
@@ -877,8 +896,6 @@ section {
 .app-content-img {
     display: flex;
     flex-direction: column;
-    /* margin: auto; */
-    /* justify-content: space-around; */
 }
 
 .app-content-img img{
@@ -887,7 +904,6 @@ section {
     width: 50%;
     background: var(--white);
     border-radius: .5rem;
-
 }
 
 .app-content .app-top {
@@ -923,45 +939,24 @@ section {
 }
 
 @media (max-width: 769px) {
-
     p {
       padding: 15px;
     }
   }
 /*--------------------------------------------------------------
-# app
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services-items {
-    /* width: 80%;
-    min-height: 300px; */
     margin: 0 auto;
-    /* display: -webkit-flex;
-    display: flex;  */
 }
 .services-item {
-    /* max-width: 480px; */
     padding: 20px;
 }
 .services .icon-box {
-  /* padding: 15px 10px 10px 10px;
-  transition: all ease-in-out 0.3s;
-  background: var(--white);
-  width: 95%;
-  box-shadow: 0 0 4px rgb(0 0 0 / 30%);
-  border-radius: .3rem;
-  border:  1px solid var(--sub_primary_color);
-  margin: auto;
-  transition: ease-in-out 0.3s;
-  color: #fff; */
-
   padding: 15px 10px 10px 10px;
     transition: all ease-in-out 0.3s;
     background: var(--white);
-    /* width: 95%; */
-    box-shadow: 0 0 4px rgb(0 0 0 / 30%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     border-radius: 0.3rem;
     border: 1px solid var(--sub_primary_color);
     text-align: center;
@@ -981,6 +976,8 @@ section {
 .services .icon-box h3 {
 font-size: 1.1rem;
   margin-top: 15px;
+  font-weight: 600;
+  color: var(--sub_primary_color);
 
 
 }
@@ -1052,8 +1049,6 @@ font-size: 1.1rem;
   }
 }
 
-
-
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
@@ -1102,10 +1097,8 @@ font-size: 1.1rem;
     box-shadow: rgb(0 0 0 / 25%) 0px 3px 11px 0px !important;
 }
 .partner-hit p{
-   color: var(--primary_color);
+   color: var(--sub_primary_color);
 }
-
-
 
 @media (max-width: 769px) {
     .features h3 {
@@ -1113,10 +1106,7 @@ font-size: 1.1rem;
         font-family: var(--ff-Tajawal);
         padding: 20px 15px;
     }
-
   }
-
-
 /*--------------------------------------------------------------
 # Partner
 --------------------------------------------------------------*/
@@ -1132,10 +1122,7 @@ font-size: 1.1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border-right: 1px solid #e7e7e7; */
-  /* border-bottom: 1px solid #e7e7e7; */
   overflow: hidden;
-  /* background: #fff; */
   height: 5rem;
 }
 .Partner .client-logo:hover img {
@@ -1724,6 +1711,10 @@ font-size: 1.1rem;
 
 #footer .footer-top .footer-info {
     margin-bottom: 30px;
+}
+
+.footer-info a {
+    color: var(--white);
 }
 
 #footer .footer-top .footer-info h3 {
