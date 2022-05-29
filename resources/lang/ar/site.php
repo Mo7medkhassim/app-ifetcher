@@ -142,8 +142,8 @@ return [
     '& 71-75 Shelton Street,' => 'اي فيتشر ال تي دي , 71-75 شارع شيلتون ،',
     'Covent Garden' => 'كوفنت غاردن',
     'London UK - iFetcher LTD' => 'لندن المملكة المتحدة',
-    'iFetcher Projects' => 'اي فيتشر المشاريع',
-    'Fetcher LTD' => 'اي فيتشر ال تي دي',
+    'iFetcher Projects' => 'اي فيتشر للمشاريع',
+    'Fetcher LTD' => 'اي فيتشر ليميتد',
 
 
 ];

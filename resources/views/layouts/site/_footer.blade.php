@@ -11,12 +11,12 @@
                         <p>
                             <span>{{__('site.iFetcher Projects')}}</span></br>
                             {{__('site.Nauf Tower Al Maktoum Bridge')}} <br>
-                            {{__('site.Dubai')}} , {{__('site.United Arab Emirates')}} <a class="num" href="tel:60 054 5544"><span> 60 054 5544 </span></a> <br><br>
+                            {{__('site.Dubai')}} , {{__('site.United Arab Emirates')}} <a class="num" href="tel:60 054 5544"><span> 600 54 5544 </span></a> <br><br>
 
                             <span>{{__('site.Fetcher LTD')}}</span>
                              <br>
                             {{__('site.& 71-75 Shelton Street,')}} {{__('site.Covent Garden')}}</br>
-                         {{__('site.London UK - iFetcher LTD')}} <a class="num" href="tel:600 545544"> <span> +971 60 054 5544 </span></a>  <br><br>
+                         {{__('site.London UK - iFetcher LTD')}} <a class="num" href="tel:600 545544"> <span> +971 600 54 5544 </span></a>  <br><br>
 
                             <strong>{{__('site.Email')}}:</strong> <a style="color: white;" href="#"><span>info@ifetcher.com</span></a><br>
                         </p>
