@@ -904,11 +904,10 @@ section {
 }
 .services .icon-box {
     padding: 15px 10px 10px 10px;
-    background-color: #fff;
-    border-radius: 0.15rem;
-    border: 1px solid var(--sub_primary_color);
-    /* color: hwb(0 6% 6%); */
-    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+    background-color: #FFF;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     text-align: center;
     position: relative;
     margin: auto;
@@ -940,7 +939,7 @@ font-size: 1.1rem;
   text-align: center;
 }
 .services .icon-box:hover {
-    box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .services .icon-box:hover h3 a {
   color: var(--sub_primary_color);
