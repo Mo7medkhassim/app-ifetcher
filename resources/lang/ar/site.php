@@ -85,7 +85,7 @@ return [
     'Help & Support' => 'الدعم الفني والإستفسار',
     'Feel Free To Contact us' => 'تواصل معنا',
     'Your Name' => 'الاسم',
-    'Your Email' => 'الايميل',
+    'Your Email' => 'البريد الالكتروني',
     'Subject' => 'رسالة',
     'Message' => 'تعليق',
 
@@ -141,8 +141,8 @@ return [
     '& 71-75 Shelton Street,' => 'اي فيتشر ال تي دي , 71-75 شارع شيلتون ،',
     'Covent Garden' => 'كوفنت غاردن',
     'London UK - iFetcher LTD' => 'لندن المملكة المتحدة',
-    'iFetcher Projects' => 'المشاريع',
-    'Fetcher LTD' => 'ي فيتشر ال تي دي',
+    'iFetcher Projects' => 'اي فيتشر المشاريع',
+    'Fetcher LTD' => 'اي فيتشر ال تي دي',
 
 
 ];

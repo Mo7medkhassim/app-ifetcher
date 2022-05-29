@@ -869,6 +869,7 @@ section {
 .app-content .app-top h4{
     color: var(--sub_primary_color);
     padding: 0 10px;
+    font-family: var(--ff-cairo);
     font-size: 1.2rem;
     text-align: center;
     font-weight: 400;
@@ -962,6 +963,7 @@ font-size: 1.1rem;
   color: var(--white);
   font-size: 28px;
   font-weight: 700;
+  font-family: var(--ff-cairo);
 }
 .cta h5 {
   color: var(--white);
