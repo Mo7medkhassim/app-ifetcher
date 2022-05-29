@@ -23,7 +23,7 @@
                   <div class="">
 
                       <a class="language px-2" href="{{ url('admin/login') }}">
-                          login
+                          Login
                       </a>
 
                       @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
