@@ -6,7 +6,7 @@
 <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container-fluid">
         @if (Session::has('Successfully'))
-        <div id="alert" class="alert alert-success">
+        <div id="alert" class="alert alert-success over-alert-success">
             <ul>
                 <li>{{ Session::get('Successfully') }}</li>
             </ul>
@@ -431,7 +431,7 @@
 
 <script>
     $(document).ready(function() {
-        $("#alert").delay(20000).fadeOut(500);
+        $("#alert").delay(15000).fadeOut(500);
     });
 </script>
 
