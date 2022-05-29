@@ -90,14 +90,23 @@ h1, h2, h3, h4, h5, h6 {
 
 .over-alert-success {
     background: var(--sub_primary_color);
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
 }
-.over-alert-success li {
+.over-alert-success .warp-text {
     color: var(--white);
-    font-size: 1.2rem;
-    position: relative;
-    white-space: nowrap;
+    font-size: .9 rem;
+    /* white-space: nowrap; */
     margin: 0 12px;
+    word-wrap: break-word;
+    text-align: center;
 
+
+
+}
+.over-alert-success ul li{
+    white-space: nowrap;
 }
 
 

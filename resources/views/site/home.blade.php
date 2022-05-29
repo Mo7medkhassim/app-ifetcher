@@ -5,11 +5,10 @@
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container-fluid">
+
         @if (Session::has('Successfully'))
         <div id="alert" class="alert alert-success over-alert-success">
-            <ul>
-                <li>{{ Session::get('Successfully') }}</li>
-            </ul>
+            <p class="warp-text">{!! Session::get('Successfully') !!}</p>
         </div>
         @endif
         <div class="row justify-content-center">
