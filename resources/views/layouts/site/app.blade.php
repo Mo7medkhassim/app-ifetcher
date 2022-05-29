@@ -83,6 +83,10 @@
                     font-family: Tajawal_bold !important;
                 }
 
+                #header .language {
+                    font-family: Tajawal_bold !important;
+                }
+
                 .contact .info p {
                     padding: 0 60px 0 0 !important;
                     font-size: 16px !important;
@@ -100,8 +104,6 @@
                     direction: ltr !important;
                     /* float: right; */
                 }
-
-
             </style>
 
         <?php else : ?>

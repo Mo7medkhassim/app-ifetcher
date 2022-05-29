@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
     font-size: 1.1rem;
     border-radius: .2rem;
-    font-family: var(--ff-primary);
+    font-family: var(--ff-cairo);
 
 }
 
@@ -245,6 +245,7 @@ iframe {
 
 #header .language  {
   color: #fff;
+  font-family: var(--ff-cairo);
 }
 
 #header .language:hover  {
@@ -553,7 +554,7 @@ iframe {
   font-weight: 700;
   line-height: 56px;
   color: var(--sub_primary_color);
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.05rem;
   font-family: var(--ff-cairo);
   /* text-shadow: 0px 2px 4px var(--grey-c1); */
 }
@@ -645,7 +646,7 @@ iframe {
   }
   #hero h2 {
     font-size: 18px;
-    line-height: 20px;
+    line-height: 28px;
     margin-bottom: 30px;
   }
 
@@ -698,7 +699,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  font-family: var(--ff-primary);
+  font-family: var(--ff-cairo);
   color: var(--primary_color);
 }
 /* .section-title h2::after {
@@ -872,7 +873,7 @@ section {
     font-family: var(--ff-cairo);
     font-size: 1.2rem;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .app-content-text p {
@@ -966,6 +967,7 @@ font-size: 1.1rem;
 }
 .cta h5 {
   color: var(--white);
+  font-family: "Raleway", sans-serif;
   font-size: 22px;
   font-weight: 600;
 }
@@ -1034,8 +1036,9 @@ font-size: 1.1rem;
 
 .features h3 {
     color: var(--sub_primary_color);
-    font-family: var(--ff-Tajawal);
+    font-family: var(--ff-cairo);
     padding: 0 50px;
+    font-weight: 700;
 }
 .partner-hit{
     padding: 30px 20px;
