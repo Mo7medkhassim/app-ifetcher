@@ -12,7 +12,7 @@
                           <li><a class="nav-link scrollto" href="#about">{{__('site.about')}}</a></li>
                           <li><a class="nav-link scrollto" href="#services">{{__('site.services')}}</a></li>
                           <li><a class="nav-link scrollto" href="#cta">{{__('site.Work With Us')}}</a></li>
-                          <li><a class="nav-link scrollto" href="#contact">{{__('site.contact')}}</a></li>
+                          <!-- <li><a class="nav-link scrollto" href="#contact">{{__('site.contact')}}</a></li> -->
                           <li><a class="nav-link scrollto" href="#app">{{__('site.Our App')}}</a></li>
                           <!-- <li><a class="nav-link scrollto" href="#">{{__('site.community')}}</a></li> -->
 
@@ -20,20 +20,23 @@
                       <i class="bi bi-list mobile-nav-toggle"></i>
                   </nav><!-- .navbar -->
 
+                  <div class="">
 
-                  <a class="language px-2" href="{{ url('admin/login') }}">
-                      login
-                  </a>
+                      <a class="language px-2" href="{{ url('admin/login') }}">
+                          login
+                      </a>
 
-                  @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                      @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
 
-                  <a class="language px-2 <?php if ($localeCode == app()->getLocale()) {
-                                                echo ' d-none';
-                                            } ?>" rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
-                      {{ $properties['native'] }}
-                  </a>
+                      <a class="language px-2 <?php if ($localeCode == app()->getLocale()) {
+                                                    echo ' d-none';
+                                                } ?>" rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+                          {{ $properties['native'] }}
+                      </a>
 
-                  @endforeach
+                      @endforeach
+
+                  </div>
               </div>
           </div>
 

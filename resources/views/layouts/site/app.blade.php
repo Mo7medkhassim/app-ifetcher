@@ -94,6 +94,14 @@
                 [type=url] {
                     direction: rtl !important;
                 }
+
+                .num {
+                    display: inline-block !important;
+                    direction: ltr !important;
+                    /* float: right; */
+                }
+
+
             </style>
 
         <?php else : ?>

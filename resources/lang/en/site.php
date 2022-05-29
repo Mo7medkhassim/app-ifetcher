@@ -45,7 +45,7 @@ return [
     'Privacy policy' => 'Privacy policy',
     'sub' => 'Feel Free To Contact us',
     'All Rights Reserved' => 'All Rights Reserved',
-    'Useful Links' => 'Useful Links',
+    'Useful Links' => 'Links',
     'Our Brand' => 'Our Brand',
     'Welcome to' => 'Welcome to',
     'Visit Site' => 'Visit Website',
@@ -93,12 +93,12 @@ return [
     'Get a Quote' => 'Get a Quote',
     'we deliver professional' => 'We deliver professional and cutting edge website building services that are custom designed to meet functional business requirements of our clients.',
 
-    'Why us?' => 'Why us?',
+    'Why us?' => 'Why iFetcher ?',
     'services' => 'services',
     'about' => 'about',
     'Work With Us' => 'Work With Us',
     'iFetcher' => 'iFetcher',
-    'contact' => 'Find Us',
+    'contact' => 'Let\'s Talk',
     'Dummy' => 'Dummy',
     'community' => 'community',
     'Our App' => 'Our App',
@@ -126,7 +126,7 @@ return [
 
     'comming soon' => 'comming soon',
     'Dubai' => 'Dubai',
-    'Nauf Tower Al Maktoum Bridge' => 'iFetcher Projects ,Nauf Tower Al Maktoum Bridge',
+    'Nauf Tower Al Maktoum Bridge' => 'Nauf Tower Al Maktoum Bridge',
     'United Arab Emirates' => 'United Arab Emirates',
     'Special Offers For' => 'Special Offers For',
     'Association Members' => 'Association Members',
@@ -136,11 +136,13 @@ return [
     connecting people worldwide & reparing to introduce Global
     Community Service that aims to create a dynamic lifestyle.',
 
-    'let' => 'let us talk',
+    'let' => 'Let\'s Talk',
     'Leave us a message' => 'Leave us a message',
-    'Projects & 71-75 Shelton Street,' => 'iFetcher LTD, 71-75 Shelton Street,',
+    'iFetcher Projects' => 'iFetcher Projects',
+    'Fetcher LTD' => 'iFetcher LTD',
+    '& 71-75 Shelton Street,' => '& 71-75 Shelton Street,',
     'Covent Garden' => 'Covent Garden',
     'London UK - iFetcher LTD' => 'London UK',
-
+    'iFetcher Projects' => 'iFetcher Projects',
 
 ];

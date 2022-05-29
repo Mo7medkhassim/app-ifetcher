@@ -6,18 +6,21 @@
 
                 <div class="col-lg-4 col-md-4">
                     <div class="footer-info">
-                        <h3>{{__('site.iFetcher')}}</h3>
+
+                    <a href="{{ route('front.home') }}" class="logo me-auto me-lg-0"><img  src="{{ asset('site_assets/img/logoo.png') }}" width="120" height="55" alt="" class="img-fluid"></a>
                         <p>
-                            {{__('site.Nauf Tower Al Maktoum Bridge')}},  {{__('site.Dubai')}} <br>
-                           {{__('site.United Arab Emirates')}} <a href="tel:545544"><i class="bx bx-phone-call"></i> 545544</a> <br><br>
+                            <span>{{__('site.iFetcher Projects')}}</span></br>
+                            {{__('site.Nauf Tower Al Maktoum Bridge')}} <br>
+                            {{__('site.Dubai')}} , {{__('site.United Arab Emirates')}} <a class="num" href="tel:60 054 5544"><span> 60 054 5544 </span></a> <br><br>
 
+                            <span>{{__('site.Fetcher LTD')}}</span>
+                             <br>
+                            {{__('site.& 71-75 Shelton Street,')}} {{__('site.Covent Garden')}}</br>
+                         {{__('site.London UK - iFetcher LTD')}} <a class="num" href="tel:600 545544"> <span> +971 60 054 5544 </span></a>  <br><br>
 
-                            {{__('site.Projects & 71-75 Shelton Street,')}} {{__('site.Covent Garden')}}<br>
-                         {{__('site.London UK - iFetcher LTD')}} <a href="tel:600 545544"><i class="bx bx-phone-call"></i> 600 545544</a>  <br><br>
-
-                            <strong>{{__('site.Email')}}:</strong> <a style="color: white;" href="#">info@ifetcher.com</a><br>
+                            <strong>{{__('site.Email')}}:</strong> <a style="color: white;" href="#"><span>info@ifetcher.com</span></a><br>
                         </p>
-                        <strong>{{__('site.Phone')}}:</strong><a style="color: white;" class="phone" href="#"> +971 60 054 5544 </a><br>
+                        <!-- <strong>{{__('site.Phone')}}:</strong><a style="color: white;" class="phone" href="#"> +971 60 054 5544 </a><br> -->
 
                     </div>
                 </div>
@@ -27,7 +30,7 @@
                     <ul>
                         <li> <a href="#">{{__('site.home')}}</a></li>
                         <li> <a href="#">{{__('site.services')}}</a></li>
-                        <!--  <a href="">{{__('site.Blog')}}</a></li> -->
+                        <!-- <li class="num"> <a href="">05 55454 4544</a></li> -->
                         <li> <a href="#">{{__('site.Our App')}}</a></li>
                         <li> <a href="#">{{__('site.Privacy policy')}}</a></li>
                     </ul>

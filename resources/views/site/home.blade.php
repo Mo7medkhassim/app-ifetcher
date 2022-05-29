@@ -23,7 +23,7 @@
                     <h1 class="animate__animated animate__fadeIndown">{{__('site.We Create the story Behind your Success')}}</h1>
 
                     <h2 class="animate__animated animate__fadeIndown">{{__('site.App Experiences')}}</h2>
-                    <a href="#contact" data-aos="zoom-in" class="btn btn-all  my-2">{{__('site.contact')}}</a>
+                    <a href="#contact" data-aos="zoom-in" class="btn btn-all btn-neutral  my-2">{{__('site.contact')}}</a>
                 </div>
 
             </div>
@@ -35,7 +35,7 @@
 <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about mt-2">
+    <section id="about" class="about">
         <div class="container">
             <div class="section-title text-center" data-aos="zoom-in">
                 <h2>{{__('site.Why us?')}}</h2>
@@ -190,7 +190,7 @@
         <div class="container">
 
             <div class="row mt-1">
-                <div class="col-md-6 mx-auto mt-3 mt-lg-0" data-aos="zoom-in">
+                <div class="col-md-6 mx-auto px-3 mt-3 mt-lg-0" data-aos="zoom-in">
 
                     <form action="{{ route('front.store') }}" method="post" role="form">
 
@@ -206,7 +206,7 @@
                             </div>
 
                             <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="text" class="form-control" name="phone" id="phone" placeholder="05 000 0000">
+                                <input type="text" class="form-control num" name="phone" id="phone" placeholder="05 000 0000">
                                 @if ($errors->has('phone'))
                                 <span class="invalid-feedback text-danger mt-2" style="display: block;" role="alert">
                                     <strong>{{ $errors->first('phone') }}</strong>
@@ -226,7 +226,7 @@
                             <textarea class="form-control" name="message" rows="5" placeholder="{{__('site.Message')}}"></textarea>
                         </div>
 
-                        <div class="text-center"><button class="btn btn-color mt-3 px-3 " type="submit">{{__('site.Send Message')}}</button></div>
+                        <div class="text-center"><button class="btn btn-all btn-neutral  mt-3 px-3 " type="submit">{{__('site.Send Message')}}</button></div>
                     </form>
                 </div>
 

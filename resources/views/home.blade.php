@@ -15,7 +15,7 @@
                         @endif
 
                         <p>{{ __('You are logged in!') }}</p>
-                        <a href="{{ route('admin.home') }}" class="btn btn-primary">Admin Dashboard</a>
+                        <a href="{{ route('admin.home') }}" class="btn btn-primary btn-neutral">Admin Dashboard</a>
 
                     </div>
                 </div>
