@@ -35,6 +35,7 @@ return [
     ####################
 
 
+    'login' => 'Login',
     'UAE' => 'UAE',
     'Phone' => 'Phone',
     'Email' => 'Email',

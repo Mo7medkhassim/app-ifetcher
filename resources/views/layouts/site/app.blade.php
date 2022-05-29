@@ -36,6 +36,10 @@
                     font-family: Tajawal;
                     src: url('/site_assets/vendor/tajawal/Tajawal-Regular.ttf');
                 }
+                @font-face {
+                    font-family: cairo;
+                    src: url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Roboto:wght@100;300;400&display=swap');
+                }
 
                 body {
                     font-family: Tajawal !important;
