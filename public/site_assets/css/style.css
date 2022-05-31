@@ -94,6 +94,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     overflow: hidden;
 }
+
 .over-alert-success .warp-text {
     color: var(--white);
     font-size: .9 rem;
@@ -101,50 +102,11 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 12px;
     word-wrap: break-word;
     text-align: center;
-
-
-
 }
+
 .over-alert-success ul li{
     white-space: nowrap;
 }
-
-
-  /* a.btn-all::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    transition: all 0.3s;
-  } */
-
-  /* a.btn-all:hover::before {
-    opacity: 0 ;
-    transform: scale(0.5,0.5);
-  } */
-
-  /* a.btn-all::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-    transition: all 0.3s;
-    border: 1px solid var(--primary_highlight);
-    border-radius: 5px;
-    transform: scale(1.2,1.2);
-  } */
-
-  /* a.btn-all:hover::after {
-    opacity: 1;
-    transform: scale(1,1);
-  } */
 
   .alert-success {
       position: fixed !important;
@@ -921,6 +883,20 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.slick-track {
+    display: flex;
+}
+
+.slick-track .slick-slide {
+    display: flex;
+    height: auto;
+}
+
+.slick-slide .services-item {
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
 .services-items {
     margin: 0 auto;
 }
@@ -928,6 +904,8 @@ section {
     padding: 20px;
 }
 .services .icon-box {
+    width: 100%;
+    height: 100%;
     padding: 15px 10px 10px 10px;
     background-color: #FFF;
     border-radius: 1rem;
@@ -950,6 +928,7 @@ section {
 .services .icon-box h3 {
 font-size: 1.1rem;
   margin-top: 15px;
+  margin-bottom: 15px;
   font-weight: 600;
   color: var(--sub_primary_color);
 }
@@ -973,6 +952,12 @@ font-size: 1.1rem;
 .inner-page .service_img {
     width: 100%;
     height: 85%;
+}
+
+.slick-track
+{
+    display: flex !important;
+    height: 100%;
 }
 
 /*--------------------------------------------------------------

@@ -30,7 +30,7 @@
         @endif
 
             <!-- services -->
-            <li><a class="app-menu__item " href="{{ route('admin.services.index') }}"><i class="app-menu__icon fa fa-list"></i> <span class="app-menu__label">Services</span></a></li>
+            <li><a class="app-menu__item " href="{{ route('admin.services.index') }}"><i class="app-menu__icon fa fa-star"></i> <span class="app-menu__label">Services</span></a></li>
 
             <!-- store -->
             <li><a class="app-menu__item " href="{{ route('admin.stores.index') }}"><i class="app-menu__icon fa fa-list"></i> <span class="app-menu__label">Projects</span></a></li>
