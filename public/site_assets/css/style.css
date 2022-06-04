@@ -6,10 +6,21 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Roboto:wght@100;300;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap'); */
 
 @font-face {
     font-family: Tajawal_bold;
     src: url('/site_assets/vendor/tajawal/Tajawal-Bold.ttf');
+}
+
+@font-face {
+    font-family: cairo_bold;
+    src: url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+}
+
+@font-face {
+    font-family: cairo;
+    src: url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
 }
 
 @font-face {
@@ -26,7 +37,8 @@
   --white: #FFFFFF;
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
-  --ff-cairo: 'Cairo', sans-serif;
+  --ff-cairo: 'cairo', sans-serif;
+  --ff-cairo_b: 'cairo_bold', sans-serif;
   --ff-Tajawal: 'Tajawal_bold', sans-serif;
   --darkShadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
@@ -61,20 +73,20 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     position: relative;
     padding: 14px 3rem;
-    border: 1px solid transparent;
     color: var(--sub_primary_color);
+    font-size: 1.1rem;
     font-weight: 600;
     line-height: 1.5;
-    font-size: 1.1rem;
-    border-radius: .2rem;
-    font-family: var(--ff-cairo);
 
 }
 
 .btn-neutral {
-    border-color: #fff;
-    background-color: #fff;
-    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+    background-color: #FFF;
+    border-radius: .8rem;
+    font-family: var(--ff-cairo);
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
 /* btn-all:hover {
@@ -82,8 +94,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-all:hover {
     color: var(--sub_primary_color);
-    /* color: #212529; */
-
     transform: translateY(-1px) !important;
     box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
 }
@@ -228,7 +238,8 @@ iframe {
 
 #header .language  {
   color: #fff;
-  font-family: var(--ff-Tajawal);
+  font-family: var(--ff-cairo);
+  font-weight: 600;
 }
 
 #header .language:hover  {
@@ -325,7 +336,7 @@ iframe {
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
-  font-family: var(--ff-primary);
+  font-family: var(--ff-cairo);
 
 }
 .navbar a i, .navbar a:focus i {
@@ -540,11 +551,11 @@ iframe {
 #hero h1 {
   margin: 0 0 25px 0;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: bolder;
   line-height: 56px;
   color: var(--sub_primary_color);
   letter-spacing: 0.05rem;
-  font-family: var(--ff-cairo);
+  font-family: var(--ff-cairo_b);
   /* text-shadow: 0px 2px 4px var(--grey-c1); */
 }
 #hero h2 {
@@ -684,24 +695,14 @@ section {
 }
 .section-title h2 {
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
   font-family: var(--ff-cairo);
   color: var(--primary_color);
 }
-/* .section-title h2::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: var(--primary_color);
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
+
 .section-title p {
   margin-bottom: 0;
   color: #777777;
@@ -840,7 +841,7 @@ section {
 
 .app-content-img img{
     margin-top: 1rem;
-    width: 30%;
+    width: 35%;
     height: 42px;
     background: var(--white);
     border-radius: .5rem;
@@ -1064,7 +1065,8 @@ font-size: 1.1rem;
 .partner-hit p{
    color: var(--primary_color);
    font-family: var(--ff-cairo);
-   font-weight: 600;
+   font-weight: 500;
+   font-size: 1.1rem;
 }
 
 .partner-hit:hover {
@@ -1326,6 +1328,9 @@ font-size: 1.1rem;
 }
 .contact h2 , .contact p {
     color: var(--sub_primary_color);
+}
+.contact .btn-all {
+    padding: 8px 20px;
 }
 .contact .info .email, .contact .info .phone {
   margin-top: 40px;

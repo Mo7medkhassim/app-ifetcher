@@ -32,8 +32,7 @@ return [
     'show' => 'Show',
     'show_all' => 'Show all ...',
 
-    ####################
-
+    ########################################
 
     'login' => 'Login',
     'UAE' => 'UAE',
@@ -141,7 +140,7 @@ return [
     'Leave us a message' => 'Leave us a message',
     'iFetcher Projects' => 'iFetcher Projects',
     'Fetcher LTD' => 'iFetcher LTD',
-    '& 71-75 Shelton Street,' => '& 71-75 Shelton Street,',
+    '& 71-75 Shelton Street,' => '71-75 Shelton Street,',
     'Covent Garden' => 'Covent Garden',
     'London UK - iFetcher LTD' => 'London UK',
     'iFetcher Projects' => 'iFetcher Projects',

@@ -71,7 +71,8 @@
 
             <div class="services-items">
 
-                @if ( ! empty ($services) && $services->count() > 0)
+                @if (! empty ($services) && $services->count() > 0)
+
                 @foreach ($services as $service)
                 <div class="services-item pb-5 " data-aos="fade-up">
                     <div class="icon-box text-center">
@@ -84,7 +85,7 @@
                 </div>
                 @endforeach
                 @else
-                <div class="alert alert-info">Please Add Services!</div>
+                <div class="alert alert-info">Please Add Services !</div>
                 @endif
 
             </div>
