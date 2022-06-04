@@ -52,7 +52,7 @@
                 h3,
                 h4,
                 h5,
-                h6 {
+                h6 ,.navbar a, .navbar a:focus {
                     font-family: Tajawal_bold !important;
                 }
 

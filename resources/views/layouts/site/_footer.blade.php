@@ -65,7 +65,7 @@
 
     <div class="container">
         <div class="copyright">
-            &copy; {{__('site.Copyright')}} <strong><span>{{__('site.iFetcher')}}</span></strong>. {{__('site.All Rights Reserved')}}
+            {{__('site.Copyright')}} <strong> <span> &copy; {{__('site.iFetcher')}}</span></strong>. {{__('site.All Rights Reserved')}}
         </div>
         <div class="credits">
         </div>
