@@ -36,6 +36,7 @@
                     font-family: Tajawal;
                     src: url('/site_assets/vendor/tajawal/Tajawal-Regular.ttf');
                 }
+
                 @font-face {
                     font-family: cairo;
                     src: url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Roboto:wght@100;300;400&display=swap');
@@ -52,7 +53,9 @@
                 h3,
                 h4,
                 h5,
-                h6 ,.navbar a, .navbar a:focus {
+                h6,
+                .navbar a,
+                .navbar a:focus {
                     font-family: Tajawal_bold !important;
                 }
 
@@ -121,6 +124,20 @@
                 .bottom-nav .btn-search {
                     right: 0;
                     /* left: 0 !important; */
+                }
+
+                .navbar a,
+                .navbar a:focus {
+                    letter-spacing: .09rem;
+                }
+
+                @media (max-width: 991px) {
+
+                    .navbar a,
+                    .navbar a:focus {
+                        letter-spacing: .09rem;
+
+                    }
                 }
             </style>
         <?php endif; ?>

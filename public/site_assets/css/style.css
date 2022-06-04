@@ -326,7 +326,7 @@ iframe {
   transition: 0.3s;
   position: relative;
   font-family: var(--ff-primary);
-  letter-spacing: .09rem;
+
 }
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
@@ -434,10 +434,7 @@ iframe {
     display: block;
   }
 
-  .navbar a, .navbar a:focus {
-      letter-spacing: .09rem;
 
-    }
   .navbar ul {
     display: none;
   }
