@@ -554,8 +554,9 @@ iframe {
   font-weight: bolder;
   line-height: 56px;
   color: var(--sub_primary_color);
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.03rem;
   font-family: var(--ff-cairo_b);
+  text-transform: uppercase;
   /* text-shadow: 0px 2px 4px var(--grey-c1); */
 }
 #hero h2 {
@@ -1095,6 +1096,8 @@ font-size: 1.1rem;
   align-items: center;
   overflow: hidden;
   height: 5rem;
+  padding: 15px;
+  color: #00b371;
 }
 .Partner .client-logo:hover img {
   transform: scale(1.1);
@@ -1102,6 +1105,7 @@ font-size: 1.1rem;
 .Partner img {
   transition: all 0.4s ease-in-out;
   width: 65px;
+
 }
 
 /*--------------------------------------------------------------
