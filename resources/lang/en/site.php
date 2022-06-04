@@ -144,5 +144,6 @@ return [
     'Covent Garden' => 'Covent Garden',
     'London UK - iFetcher LTD' => 'London UK',
     'iFetcher Projects' => 'iFetcher Projects',
+    'Technologies' => 'Technologies',
 
 ];

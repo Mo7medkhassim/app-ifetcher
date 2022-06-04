@@ -144,6 +144,8 @@ return [
     'London UK - iFetcher LTD' => 'لندن المملكة المتحدة',
     'iFetcher Projects' => 'اي فيتشر للمشاريع',
     'Fetcher LTD' => 'اي فيتشر ليميتد',
+    'Technologies' => 'تقنياتنا',
+
 
 
 ];
