@@ -81,11 +81,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-neutral {
+    font-family: var(--ff-cairo);
+    text-transform: capitalize;
+    border: 1px solid transparent;
     background-color: #FFF;
     border-radius: .8rem;
-    font-family: var(--ff-cairo);
-    border: 1px solid transparent;
-    text-transform: capitalize;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
@@ -103,6 +103,10 @@ h1, h2, h3, h4, h5, h6 {
     clear: both;
     display: inline-block;
     overflow: hidden;
+    border: 1px solid transparent;
+    border-radius: .8rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    z-index: 999;
 }
 
 .over-alert-success .warp-text {

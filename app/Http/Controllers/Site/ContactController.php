@@ -21,6 +21,14 @@ class ContactController extends Controller
 
         Contact::create($request->all());
 
-        return back()->with('Successfully', 'Thanks . ' . $request->name . ' , Your message has been sent!');
+        // session()->flash('success', __('added successfully'));
+        // return redirect()->route('admin.categories.index');
+        if (app()->getLocale() == "en") {
+            $message = "Your message has been sent!, We will contact you soon, Thanks";
+        }else{
+            $message = "تم الارسال بنجاح, سوف يتم التواصل معك قريبا , شكرا";
+
+        }
+        return redirect()->route('front.home')->with('Successfully', $message);
     }
 }

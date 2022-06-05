@@ -145,5 +145,6 @@ return [
     'London UK - iFetcher LTD' => 'London UK',
     'iFetcher Projects' => 'iFetcher Projects',
     'Technologies' => 'Technologies',
+    'Your message has been sent!' => 'Thank you for getting in touch!',
 
 ];

@@ -431,7 +431,7 @@
 
 <script>
     $(document).ready(function() {
-        $("#alert").delay(15000).fadeOut(500);
+        $("#alert").delay(10000).fadeOut(500);
     });
 </script>
 

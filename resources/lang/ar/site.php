@@ -145,6 +145,7 @@ return [
     'iFetcher Projects' => 'اي فيتشر للمشاريع',
     'Fetcher LTD' => 'اي فيتشر ليميتد',
     'Technologies' => 'تقنياتنا',
+    'Your message has been sent!' => 'تم الارسال بنجاح , ',
 
 
 
