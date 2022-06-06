@@ -39,14 +39,14 @@ Route::middleware([
             Route::resource('users', 'UserController');
 
             // category routes
-
             Route::resource('categories', 'CategoryController');
 
             // services routes
             Route::resource('services', 'ServiceController');
 
-            // store routes
-            Route::resource('stores', 'StoreController');
+            // messages routes
+            Route::resource('messages', 'ContactControler');
+            // Route::get('/message/{id}', 'ContactControler@messageDetails')->name('message-details');
 
 
 

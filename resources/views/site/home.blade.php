@@ -192,7 +192,7 @@
             <div class="row mt-1">
                 <div class="col-md-6 mx-auto px-3 mt-3 mt-lg-0" data-aos="zoom-in">
 
-                    <form action="{{ route('front.store') }}" method="post" role="form">
+                    <form action="{{ route('front.contact') }}" method="post" role="form">
 
                         @csrf
                         <div class="row">

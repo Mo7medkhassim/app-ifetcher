@@ -18,34 +18,33 @@
             <div class="widget-small primary coloured-icon"><i class="icon fa fa-users fa-3x"></i>
                 <div class="info">
                     <h4>Users</h4>
-                    <p><b>5</b></p>
+                    @if($users && $users->count() > 0)
+                    <p><b> {{ $users->count() }} </b></p>
+                    @endif
                 </div>
             </div>
         </div>
         <div class="col-sm-6 ">
-            <div class="widget-small info coloured-icon"><i class="icon fa fa-thumbs-o-up fa-3x"></i>
+            <div class="widget-small info coloured-icon"><i class="icon fa fa-star fa-3x"></i>
                 <div class="info">
-                    <h4>Categories</h4>
-                    <p><b>25</b></p>
+                    <h4>Servies</h4>
+                    @if( $services && $services->count() > 0 )
+                    <p><b> {{ $services->count() }} </b></p>
+                    @endif
                 </div>
             </div>
         </div>
         <div class="col-sm-6 ">
             <div class="widget-small warning coloured-icon"><i class="icon fa fa-files-o fa-3x"></i>
                 <div class="info">
-                    <h4>Servies</h4>
-                    <p><b>10</b></p>
+                    <h4>Messages</h4>
+                    @if($messages && $messages->count() > 0)
+                    <p><b> {{ $messages->count() }} </b></p>
+                    @endif
                 </div>
             </div>
         </div>
-        <div class="col-sm-6 ">
-            <div class="widget-small danger coloured-icon"><i class="icon fa fa-star fa-3x"></i>
-                <div class="info">
-                    <h4>Projects</h4>
-                    <p><b>500</b></p>
-                </div>
-            </div>
-        </div>
+
     </div>
 
 

@@ -16,17 +16,17 @@ Route::prefix(LaravelLocalization::setLocale())
 
         Route::get('/', [HomeController::class, 'index'])->name('front.home');
 
-        Route::get('/services', [ServiceController::class, 'index'])->name('front.services');
+        // Route::get('/services', [ServiceController::class, 'index'])->name('front.services');
 
-        Route::get('/service/{slug}', [ServiceController::class, 'show'])->name('front.service');
+        // Route::get('/service/{slug}', [ServiceController::class, 'show'])->name('front.service');
 
-        Route::get('/projects', [HomeController::class, 'projects'])->name('front.projects');
+        // Route::get('/projects', [HomeController::class, 'projects'])->name('front.projects');
 
-        Route::get('/about', [HomeController::class, 'about'])->name('front.about');
+        // Route::get('/about', [HomeController::class, 'about'])->name('front.about');
 
-        Route::get('/contact', [ContactController::class, 'index'])->name('front.contact');
+        // Route::get('/contact', [ContactController::class, 'index'])->name('front.contact');
 
-        Route::post('/contact', [ContactController::class, 'store'])->name('front.store');
+        Route::post('/contact', [ContactController::class, 'send'])->name('front.contact');
 
         // Route::get('/home', [HomeController::class, 'index'])->;
 
